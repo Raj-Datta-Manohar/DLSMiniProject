@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DLS Estimator</string>
+    <string name="subtitle">a cricket calculator</string>
+    <string name="open_calculator_button">Calculate</string>
+    <string name="change_match_type_label">Change match type</string>
+    <string name="change_g50_label">Change G50</string>
+    <string name="about_label">About</string>
+    <string name="calculator_label">Duckworth-Lewis Calculator</string>
+    <string name="first_innings_label">1st Innings</string>
+    <string name="second_innings_label">2nd Innings</string>
+    <string name="result_label">Result</string>
+    <string name="first_innings_score_label">Score after first innings</string>
+    <string name="interruption_score_label">Score at interruption</string>
+    <string name="starting_overs_label">Total available overs\n(beginning of innings)</string>
+    <string name="add_interruption_label">Add interruption</string>
+    <string name="runs_wickets_separator">/</string>
+    <string name="target_score">Target score:</string>
+    <string name="calculation_error_label">Error</string>
+    <string name="calculation_error_detail">Unable to calculate target score.\nPlease check input values.</string>
+    <string name="result">(%s runs to tie)</string>
+    <string name="no_result_label">No result</string>
+    <string name="no_result_detail">(minimum of %s overs\nrequired per side)</string>
+    <string name="interruptions_label">Interruptions</string>
+    <string name="edit_interruption">Edit</string>
+    <string name="delete_interruption">Delete</string>
+    <string name="interruption_overs_completed_label">Overs completed</string>
+    <string name="interruption_new_total_overs">Total available overs\n(reduced figure)</string>
+    <string name="interruption_title">Interruption at %1$s/%2$s after %3$s overs</string>
+    <string name="delete_interruption_message">Delete interruption?</string>
+    <string name="delete_interruption_positive_button">Delete</string>
+    <string name="continue_button">Continue</string>
+    <string name="reset_button">Reset</string>
+    <string name="reset_warning">Reset calculation?</string>
+    <string name="change_match_type_50_overs">One day (50 overs)</string>
+    <string name="change_match_type_20_overs">Twenty20 (20 overs)</string>
+    <string name="g50_info">G50 is the average score expected from the team batting first in an uninterrupted 50 over match.</string>
+    <string name="pro_g50_label">%s (ICC full member nations, first class cricket teams)</string>
+    <string name="amateur_g50_label">%s (ICC associate member nations, Under-19, Under-15, Women\'s ODIs)</string>
+    <string name="custom_g50_label">Custom G50</string>
+    <string name="invalid_g50_toast">Invalid G50</string>
+    <string name="faq_first_question">What is DLS Estimator?</string>
+    <string name="faq_first_answer">DLS Estimator is a Duckworth-Lewis calculator for target scores
+        in weather affected cricket matches.</string>
+    <string name="faq_second_question">Why doesn\'t it calculate the same score as on TV?</string>
+    <string name="faq_second_answer">The app uses the Standard Edition of the Duckworth-Lewis
+        which was used for all matches prior to 2003, whereas the current method used for all
+        international matches is the Professional Edition.</string>
+    <string name="faq_third_question">Why not use the Professional Edition?</string>
+    <string name="faq_third_answer">The Professional Edition requires software which is not publicly
+        available.</string>
+    <string name="faq_fourth_question">Are the results still accurate?</string>
+    <string name="faq_fourth_answer">The results using the Standard Edition are generally similar to
+        those from the Professional Edition, but the results start to diverge for very high first
+        innings totals (around 350 runs and more).</string>
+    <string name="faq_fifth_question">How are the results calculated?</string>
+    <string name="faq_fifth_answer">The app uses the official over-by-over tables and G50 values provided in the
+        ICC Playing Handbook 2014-2015. More information about the Duckworth-Lewis method and how results
+        are calculated can be found in that handbook.</string>
+    <string name="faq_button">Frequently Asked Questions</string>
+    <string name="rate_app_button">Rate App</string>
+    <string name="send_feedback_button">Send Feedback</string>
+    <string name="feedback_email_subject">DLS Estimator Feedback (%s)</string>
+    <string name="feedback_email_address">support@miniproject.com</string>
+
+</resources>
